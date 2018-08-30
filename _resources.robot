@@ -1,5 +1,5 @@
 *** Settings ***
-Library           Selenium2Library
+Library           Selenium2Library 30 15
 
 *** Variables ***
 ${BROWSER}        chrome
@@ -19,7 +19,7 @@ Prepare Test Environment
     Open Browser  ${HOST}  ${BROWSER}
     Maximize Browser Window
 
-Login
+Login-m
     Input Text  css=#input-email ${LOGIN}
 	Input Text  css=#input-password ${PASS}
 	Click Button  css=form > input
