@@ -4,7 +4,7 @@
 Test Teardown     Close All Browsers
 
 *** Test Cases ***
-Check sorting system
+Check search system
     [Tags]  TC-eshop-25
 	Click Element  css=li:nth-child(1) > a > span
 	Wait Until Element Is Visible  css=li:nth-child(1) > a:nth-child(1)
